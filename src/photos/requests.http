@@ -1,0 +1,16 @@
+### get all photos
+GET http://localhost:3000/photos
+
+
+### GET photo
+GET http://localhost:3000/photos/123
+
+
+### create photo
+POST http://localhost:3000/photos
+Content-Type: application/json
+
+{
+    "photo_url":"https://picsum.photos/200/300",
+    "description":"this is photo"
+}
